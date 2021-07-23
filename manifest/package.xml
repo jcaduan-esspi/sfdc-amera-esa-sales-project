@@ -98,6 +98,12 @@
 		<name>RecordType</name>
 	</types>
 	<types>
+		<members>Account.WU_ACC_OC_ESA_change_RT_to_Prospect</members>
+		<members>Account.WU_ACC_OC_ESA_change_RT_to_Registered</members>
+		<members>Account.WU_ACC_OC_to_ESA</members>
+		<name>WorkflowFieldUpdate</name>
+	</types>
+	<types>
 		<members>Account.WR ACC OC ESA change RT to Prospect</members>
 		<members>Account.WR ACC OC ESA change RT to Registered</members>
 		<members>Account.WR ACC OC to ESA</members>

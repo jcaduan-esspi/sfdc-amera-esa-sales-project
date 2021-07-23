@@ -5,7 +5,6 @@
 		<name>CustomApplication</name>
 	</types>
 	<types>
-	
 		<members>Account.ACC_AR__c</members>
 		<members>Account.ACC_Account_Status__c</members>
 		<members>Account.ACC_Contact_Phone__c</members>

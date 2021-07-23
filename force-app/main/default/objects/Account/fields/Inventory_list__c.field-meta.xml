@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inventory_list__c</fullName>
+    <externalId>false</externalId>
+    <label>Inventory list</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NL2 AS ECC</fullName>
+                <default>false</default>
+                <label>NL2 AS ECC</label>
+            </value>
+            <value>
+                <fullName>NL2 AS T8 ECC UV</fullName>
+                <default>false</default>
+                <label>NL2 AS T8 ECC UV</label>
+            </value>
+            <value>
+                <fullName>NL2AS BLUV</fullName>
+                <default>false</default>
+                <label>NL2AS BLUV</label>
+            </value>
+            <value>
+                <fullName>NL2AS TR CLASSIC</fullName>
+                <default>false</default>
+                <label>NL2AS TR CLASSIC</label>
+            </value>
+            <value>
+                <fullName>NL3 SP ECC</fullName>
+                <default>false</default>
+                <label>NL3 SP ECC</label>
+            </value>
+            <value>
+                <fullName>NL3-AS BLUV</fullName>
+                <default>false</default>
+                <label>NL3-AS BLUV</label>
+            </value>
+            <value>
+                <fullName>NL3-AS TR CLASSIC</fullName>
+                <default>false</default>
+                <label>NL3-AS TR CLASSIC</label>
+            </value>
+            <value>
+                <fullName>NL3 AS SEE UV</fullName>
+                <default>false</default>
+                <label>NL3 AS SEE UV</label>
+            </value>
+            <value>
+                <fullName>NL4 AS SEE UV</fullName>
+                <default>false</default>
+                <label>NL4 AS SEE UV</label>
+            </value>
+            <value>
+                <fullName>NL4-AS BLUV</fullName>
+                <default>false</default>
+                <label>NL4-AS BLUV</label>
+            </value>
+            <value>
+                <fullName>NL3 DAS</fullName>
+                <default>false</default>
+                <label>NL3 DAS</label>
+            </value>
+            <value>
+                <fullName>NL4 DAS</fullName>
+                <default>false</default>
+                <label>NL4 DAS</label>
+            </value>
+            <value>
+                <fullName>NL5 DAS</fullName>
+                <default>false</default>
+                <label>NL5 DAS</label>
+            </value>
+            <value>
+                <fullName>EYEZEN</fullName>
+                <default>false</default>
+                <label>EYEZEN</label>
+            </value>
+            <value>
+                <fullName>Photochromic BLUE Plus</fullName>
+                <default>false</default>
+                <label>Photochromic BLUE Plus</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

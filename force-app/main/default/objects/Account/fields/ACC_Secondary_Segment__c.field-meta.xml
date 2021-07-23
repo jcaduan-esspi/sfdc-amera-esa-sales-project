@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ACC_Secondary_Segment__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Sales Grade</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Segment__c.SEG_Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>Segment__c.SEG_Segment_Category__c</field>
+            <operation>equals</operation>
+            <value>Sales Grade</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Segment__c</referenceTo>
+    <relationshipLabel>Accounts (Potential Grade)</relationshipLabel>
+    <relationshipName>Accounts1</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

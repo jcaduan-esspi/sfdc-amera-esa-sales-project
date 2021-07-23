@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ESSILOR KOREA</fullName>
+        <default>false</default>
+        <label>ESSILOR KOREA</label>
+    </customValue>
+    <customValue>
+        <fullName>NIKON CANADA</fullName>
+        <default>false</default>
+        <label>NIKON CANADA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR SOUTH AFRICA</fullName>
+        <default>false</default>
+        <label>ESSILOR SOUTH AFRICA</label>
+    </customValue>
+    <customValue>
+        <fullName>BBGR FRANCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BBGR FRANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR Ltd</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR Ltd</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR NL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR NL</label>
+    </customValue>
+    <customValue>
+        <fullName>REIZE OPTIK AG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>REIZE OPTIK AG</label>
+    </customValue>
+    <customValue>
+        <fullName>INSTITUTO SUPERIOR OCULAR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>INSTITUTO SUPERIOR OCULAR</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR SPAIN</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR SPAIN</label>
+    </customValue>
+    <customValue>
+        <fullName>BBGR UK</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BBGR UK</label>
+    </customValue>
+    <customValue>
+        <fullName>Infield</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Infield</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR FRANCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR FRANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR ITALIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR ITALIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR BELGIUM</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR BELGIUM</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR PORTUGAL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR PORTUGAL</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR SWISS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR SWISS</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR AUSTRIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR AUSTRIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR NETHERLANDS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR NETHERLANDS</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR BULGARIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR BULGARIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR HRVATSKA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR HRVATSKA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR OPTIKA KTF.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR OPTIKA KTF.</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR SRBIJIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR SRBIJIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR SLOVENIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR SLOVENIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR SLOVAKIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR SLOVAKIA</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR CZECH REPUBLIC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR CZECH REPUBLIC</label>
+    </customValue>
+    <customValue>
+        <fullName>TRANSITIONS AUSTRALIA</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TRANSITIONS AUSTRALIA</label>
+    </customValue>
+    <customValue>
+        <fullName>Temporary Company</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Temporary Company</label>
+    </customValue>
+    <customValue>
+        <fullName>NIKA GE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NIKA GE</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR NL DUMMY</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR NL DUMMY</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR DANMARK A/S</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR DANMARK A/S</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR NORGE AS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR NORGE AS</label>
+    </customValue>
+    <customValue>
+        <fullName>RUPP &amp; HUBRACH OPTIK GmbH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RUPP &amp; HUBRACH OPTIK GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>NIKA OPTICS GmbH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NIKA OPTICS GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>INFIELD SAFETY FR</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>INFIELD SAFETY FR</label>
+    </customValue>
+    <customValue>
+        <fullName>IVS FRANCE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>IVS FRANCE</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR GmbH</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>ESSILOR AB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ESSILOR AB</label>
+    </customValue>
+    <masterLabel>Operating Companies List</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

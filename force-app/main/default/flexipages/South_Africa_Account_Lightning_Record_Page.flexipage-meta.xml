@@ -46,6 +46,15 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentName>categoryDevelopmentObjectivePageLWC</componentName>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-4014cf94-1f86-44f1-84f5-730e3e641c58</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
                 <componentInstanceProperties>
                     <name>body</name>
                     <value>Facet-33f2a281-a171-477c-8da7-01c9d4ab2172</value>
@@ -66,6 +75,19 @@
                 <componentInstanceProperties>
                     <name>title</name>
                     <value>Standard.Tab.detail</value>
+                </componentInstanceProperties>
+                <componentName>flexipage:tab</componentName>
+            </componentInstance>
+        </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>body</name>
+                    <value>Facet-4014cf94-1f86-44f1-84f5-730e3e641c58</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>title</name>
+                    <value>Development Objectives</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:tab</componentName>
             </componentInstance>

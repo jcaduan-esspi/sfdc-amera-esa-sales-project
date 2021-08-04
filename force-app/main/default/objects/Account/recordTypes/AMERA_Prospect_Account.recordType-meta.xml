@@ -7,14 +7,6 @@
     <picklistValues>
         <picklist>ACC_Account_Status__c</picklist>
         <values>
-            <fullName>Deactivated</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Deleted</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Prospect</fullName>
             <default>true</default>
         </values>

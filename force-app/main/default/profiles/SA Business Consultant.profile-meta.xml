@@ -19,6 +19,10 @@
         <apexClass>AccountCreateUpdateCheckerBatch</apexClass>
         <enabled>false</enabled>
     </classAccesses>
+    <classAccesses>
+        <apexClass>CategoryDevelopmentObjectiveController</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
     <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
@@ -403,6 +407,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.Account_Blocked__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Alignment_Vision__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -882,6 +891,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Account.Store_Premiumness__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Account.Subgroup__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -946,9 +960,119 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective_Task__c.CDOT_Is_Completed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective_Task__c.CDOT_Supporting_Tool__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective__c.CDO_Active__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective__c.CDO_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective__c.CDO_Operating_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective__c.CDO_Segment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective__c.CDO_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective__c.CDO_Trade_Channel_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Category_Development_Objective__c.CDO_Trade_Channel_2__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Contact.CON_Phone2__c</field>
         <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Development_Objective_Task__c.Completion_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Development_Objective_Task__c.DOT_Is_Completed__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Development_Objective_Task__c.DOT_Supporting_Tool__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Development_Objective__c.DO_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Development_Objective__c.DO_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Development_Objective__c.DO_Number_of_Completed_Tasks__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Development_Objective__c.DO_Number_of_Tasks__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Development_Objective__c.DO_Operating_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Development_Objective__c.DO_Segment__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Development_Objective__c.DO_Start_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Development_Objective__c.DO_Tasks_Completion__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Development_Objective__c.DO_Trade_Channel_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Development_Objective__c.DO_Trade_Channel_2__c</field>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>false</editable>
@@ -1277,12 +1401,27 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Sales_District__c.Sales_District_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Sales_Region__c.SR_Operating_Company__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Sales_Region__c.Sales_Region_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Sales_Territory__c.ST_Operating_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Sales_Territory__c.Sales_Territory_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1298,6 +1437,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Segment__c.SEG_Operating_Company__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Segment__c.SEG_Segment_Category__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -1383,19 +1527,31 @@
         <recordType>Account.Korea_Business_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-AMERA-Prospect Account 2</layout>
+        <layout>Account-AMERA-Prospect Account Layout</layout>
         <recordType>Account.AMERA_Prospect_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-AMERA-Prospect Account 2</layout>
+        <layout>Account-AMERA-Prospect Account Layout</layout>
         <recordType>Account.Create_Prospect_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Account-AMERA-Prospect Account 2</layout>
+        <layout>Account-AMERA-Prospect Account Layout</layout>
         <recordType>Account.Prospect_Account</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Account-South Africa Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Category_Development_Objective_Task__c-Category Development Objective Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Category_Development_Objective__c-Category Development Objective Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Development_Objective_Task__c-Development Objective Task Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Development_Objective__c-Development Objective Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Event-ESA Initial Visit Layout</layout>
@@ -1421,6 +1577,24 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>false</modifyAllRecords>
         <object>Account</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Development_Objective_Task__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Development_Objective__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -1497,7 +1671,23 @@
         <visible>true</visible>
     </recordTypeVisibilities>
     <tabVisibilities>
+        <tab>Category_Development_Objective_Task__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Category_Development_Objective__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Company_Dashboard</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Development_Objective_Task__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Development_Objective__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
